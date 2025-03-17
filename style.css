@@ -12,6 +12,10 @@ body{
     justify-content: center;
     height: 100vh;
     background-color:  hsl(241, 100%, 89%);
+    @media (max-width: 600px) {
+        height: auto;
+        
+    }
     
 }
 .container{
@@ -125,4 +129,8 @@ span{
 
 .attribution{
     margin-top: 100px;
+    @media (max-width:700px) {
+        margin: 5px;
+        
+    }
 }
