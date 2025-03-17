@@ -1,0 +1,128 @@
+
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+    
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:  hsl(241, 100%, 89%);
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    @media (max-width:720px) {
+     display: flex;
+     flex-direction: column;        
+    }
+}
+
+.result-card {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    text-align: center;
+    padding: 40px;
+    width: 250px;
+    border-radius: 20px;
+}
+.score-circle {
+    background:  linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    color: white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.score { font-size: 46px; font-weight: bold; }
+.total { font-size: 12px; }
+
+.status { font-size: 18px; font-weight: bold; }
+.description { font-size: 12px; opacity: 0.8; }
+h2{
+    font-size: 28px;
+}
+.summary-card {
+    padding: 30px;
+    width: 250px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+h3{
+    margin: 0;
+}
+.summary-title { 
+    font-size:28px; 
+    font-weight: bold;
+    margin-bottom: 10px; }
+
+.summary-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #f5f5f5;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.score-obtained {
+    font-weight: bold;
+    color: #222;
+    margin-left: 30px;
+    
+}
+.score-total {
+    color: #aaa;
+}
+
+.reaction { color:hsl(0, 100%, 67%); }
+.memory { color: hsl(39, 100%, 56%); }
+.verbal { color:hsl(166, 100%, 37%); }
+.visual { color:hsl(234, 85%, 45%); }
+span{
+    margin: 0;
+    padding: 0;
+}
+
+.continue-btn {
+    width: 100%;
+    padding: 15px;
+    background: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    margin-top: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.continue-btn:hover {
+   background:  linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+
+
+
+.attribution{
+    margin-top: 100px;
+}
